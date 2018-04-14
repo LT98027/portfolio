@@ -1,0 +1,68 @@
+html {
+  font-family: helvetica;
+}
+
+header img {
+  zoom: 5%;
+  align-items: bottom;
+}
+
+header h2 {
+  display: inline-block;
+  font-weight: bold;
+  color: #43A39E;
+}
+
+nav {
+  background-color: #333;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+  color: white;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: white;
+  display: block;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #bfebff;
+  text-decoration: underline;
+}
+
+section .welcome h2 {
+  font-weight: normal;
+  color: blue;
+  text-decoration: underline;
+}
+
+section .welcome p {
+  font-style: oblique;
+}
+
+section .projects h2 {
+  font-weight: normal;
+  color: #00674c;
+  text-decoration: underline;
+}
+
+section .projects ul li a:hover {
+  color: blue;
+}
+
+.about h2 {
+  font-weight: normal;
+  color: blue;
+  text-decoration: underline;
+}
+
+.about p {
+  font-style: italic;
+}
