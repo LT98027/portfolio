@@ -1,5 +1,5 @@
 html {
-  font-family: helvetica;
+  font-family: 'Roboto', sans-serif;
 }
 
 header img {
@@ -57,6 +57,7 @@ section .projects ul li a:hover {
   color: blue;
 }
 
+
 .about h2 {
   font-weight: normal;
   color: blue;
@@ -65,4 +66,15 @@ section .projects ul li a:hover {
 
 .about p {
   font-style: italic;
+}
+
+#image img {
+  width: 40%;
+  margin-top: 20px;
+}
+#description {
+  float: right;
+  left: 525px;
+  width: 55%;
+  margin-right: 10px;
 }
