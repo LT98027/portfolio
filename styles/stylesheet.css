@@ -1,5 +1,6 @@
 html {
   font-family: 'Roboto', sans-serif;
+  background-color: black;
 }
 
 header img {
@@ -8,73 +9,122 @@ header img {
 }
 
 header h2 {
-  display: inline-block;
+  font-size: 1.25rem;
   font-weight: bold;
-  color: #43A39E;
+  color: #FFFFFF;
 }
 
 nav {
-  background-color: #333;
   margin: 0;
   overflow: hidden;
 }
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.menu {
+  margin-left: 20px;
+  list-style: none;
 
-nav ul li {
-  display: inline-block;
-  color: white;
-  margin-right: 2rem;
 }
 
-nav ul li a {
+.title {
   color: white;
-  display: block;
-  line-height: 2em;
+  margin-right: auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  list-style: none;
+}
+.menu {
+  color: white;
+  /*line-height: 2em;*/
   text-decoration: none;
 }
 
-nav ul li a:hover {
-  color: #bfebff;
+.menu a:link {
+  color: white;
+}
+
+.menu a:visited {
+  color: white;
+}
+
+.menu a:hover {
+  color: #A6A5A1;
   text-decoration: underline;
 }
 
+section img{
+  position: absolute;
+  overflow: scroll;
+  width: 100%;
+  z-index: 2;
+}
+
 section .welcome h2 {
-  font-weight: normal;
-  color: blue;
-  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
 }
 
 section .welcome p {
   font-style: oblique;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
 }
 
-section .projects h2 {
+.projects h2 {
   font-weight: normal;
-  color: #00674c;
+  color: white;
   text-decoration: underline;
+  margin-left: 40px;
 }
 
 section .projects ul li a:hover {
   color: blue;
 }
 
+.projects {
+  color: white;
+}
+#box {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  z-index: 3;
+  position: relative;
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
 
 .about h2 {
   font-weight: normal;
-  color: blue;
+  color: white;
   text-decoration: underline;
 }
 
 .about p {
   font-style: italic;
+  color: white;
 }
 
 #image img {
-  width: 40%;
+  width: 30%;
   margin-top: 20px;
+  margin-left: 40px;
 }
 #description {
   float: right;
   left: 525px;
   width: 55%;
   margin-right: 10px;
+}
+footer {
+  display: block;
+  margin-left: 40px;
 }
